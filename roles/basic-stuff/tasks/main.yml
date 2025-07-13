@@ -3,6 +3,8 @@
   ansible.builtin.package:
     name:
       - ansible
+      - btop
+      - htop
       - vim
       - curl
       - wget
